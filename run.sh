@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-git clone git@github.com:jlokiec/matchscore-server.git
-git clone git@github.com:jlokiec/matchscore-webapp.git
-docker-compose up
+git clone https://github.com/jlokiec/matchscore-server.git
+git clone https://github.com/jlokiec/matchscore-webapp.git
+docker-compose up --build
